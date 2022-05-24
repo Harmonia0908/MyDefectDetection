@@ -1,6 +1,6 @@
 # MyDefectDetection
 
-A defect detection project with graphical interface based on pyqt.  
+A defect detection project with simple graphical interface based on pyqt.  
 Using ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8 for model training on colab.  
   
   
