@@ -1,0 +1,15 @@
+2.Create Label Map
+
+labels = [{'name':'crazing', 'id':1}, {'name':'inclusion', 'id':2}, {'name':'patches', 'id':3}, {'name':'pitted_surface', 'id':4}, {'name':'rolled-in_scale', 'id':5}, {'name':'scratches', 'id':6}]
+
+
+1.在检查安装是否完全后，保证opencv版本一致
+
+!pip uninstall opencv-python-headless==4.5.5.64 -y
+!pip install opencv-python-headless==4.1.2.30
+
+
+9.Detect from image
+
+在最前面加上一行
+tf.config.experimental_run_functions_eagerly(True)
